@@ -1,0 +1,25 @@
+{
+  "name": "react-jest-weather-final",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "NODE_OPTIONS=--no-deprecation jest"
+  },
+  "devDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "jest": "^29.0.0",
+    "babel-jest": "^29.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "node-fetch": "^2.6.7",
+    "jest-environment-jsdom": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+  }
+}

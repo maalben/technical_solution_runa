@@ -1,0 +1,16 @@
+{
+  "name": "openweathermap-cypress-gherkin",
+  "version": "1.0.0",
+  "description": "Pruebas E2E a la API de OpenWeatherMap usando Cypress + Cucumber (Gherkin)",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^12.17.4",
+    "esbuild": "^0.19.12"
+  }
+}
