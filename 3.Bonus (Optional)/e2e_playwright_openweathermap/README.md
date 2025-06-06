@@ -14,20 +14,13 @@ Este proyecto contiene una prueba End-to-End (E2E) para automatizar la búsqueda
 
 ## 🛠️ Instalación
 
-1. **Clona el repositorio** o descarga el proyecto:
-
-   ```bash
-   git clone https://github.com/tu-usuario/openweathermap-e2e-playwright.git
-   cd openweathermap-e2e-playwright
-   ```
-
-2. **Instala las dependencias**:
+1. **Instala las dependencias**:
 
    ```bash
    npm install
    ```
 
-3. **(Solo la primera vez)** Instala los navegadores soportados por Playwright:
+2. **(Solo la primera vez)** Instala los navegadores soportados por Playwright:
 
    ```bash
    npx playwright install
