@@ -8,7 +8,9 @@
 
 ## 📑 Tabla de Contenido
 
-1. [Introducción](#1-introduccion)
+[Introducción](#1-introduccion)
+[Introducción](#1-introducción)
+[Introducción](#introduccion)
 2. [Objetivo](#2-objetivo)
 3. [Justificación](#3-justificacion)
 4. [Alcance](#4-alcance)
