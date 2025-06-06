@@ -14,14 +14,7 @@ Este proyecto automatiza las pruebas E2E de la API de *Current Weather Data* usa
 
 ## 🚀 Instalación
 
-1. Clona este repositorio o descomprime el archivo zip:
-
-    ```bash
-    git clone https://github.com/tu-usuario/openweathermap-cypress-gherkin.git
-    cd openweathermap-cypress-gherkin
-    ```
-
-2. Instala las dependencias del proyecto:
+    Instala las dependencias del proyecto:
 
     ```bash
     npm install

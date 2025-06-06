@@ -8,7 +8,7 @@
 
 ## 📑 Tabla de Contenido
 
-1. [Introducción](#introducción)
+1. [Introducción](#1.Introducción)
 2. [Objetivo](#objetivo)
 3. [Justificación](#justificación)
 4. [Alcance](#alcance)
@@ -23,7 +23,7 @@
 
 ---
 
-## 1. Introducción
+## 1.Introducción
 
 Este documento presenta el plan de pruebas para el endpoint **Current Weather Data API** de OpenWeatherMap. El propósito es asegurar la calidad, funcionalidad, robustez y precisión de la API frente a diversos escenarios de consulta. También se propone una solución integral y automatizada para validar la integración con este servicio externo.
 
@@ -112,9 +112,7 @@ La arquitectura contempla triggers automáticos al realizar un push o pull reque
 | 9  | Falta de parámetros obligatorios       | Solo `appid`                      | 400 Bad Request, error descriptivo          |
 | 10 | Formato incorrecto en parámetros       | `q=12345!@#`                      | 400 Bad Request o error adecuado            |
 | 11 | Nombre de ciudad extremadamente largo  | `q=xxxxxxxxxxxxxxxxxx...`         | 400/404, manejo correcto de error           |
-| 12 | Consulta masiva (límite/concurrencia)  | 100+ requests/min                 | 200 OK, sin caídas ni degradación           |
-| 13 | Verificación de headers de respuesta   | Cualquier consulta                | Header Content-Type: application/json       |
-| 14 | Tiempo de respuesta                    | Cualquier consulta válida         | < 800 ms                                    |
+| 12 | Verificación de headers de respuesta   | Cualquier consulta                | Header Content-Type: application/json       |
 
 ---
 
