@@ -8,11 +8,11 @@
 
 ## 📑 Tabla de Contenido
 
-1. [Introducción](#1.Introducción)
-2. [Objetivo](#objetivo)
-3. [Justificación](#justificación)
-4. [Alcance](#alcance)
-5. [Estrategia de Pruebas](#estrategia-de-pruebas)
+1. [Introducción](#1-introduccion)
+2. [Objetivo](#2-objetivo)
+3. [Justificación](#3-justificacion)
+4. [Alcance](#4-alcance)
+5. [Estrategia de Pruebas](#5-estrategia-de-pruebas)
 6. [Herramientas](#herramientas)
 7. [Tipos de Validaciones/Aserciones](#tipos-de-validacionesaserciones)
 8. [Criterios de Aceptación](#criterios-de-aceptación)
@@ -23,7 +23,7 @@
 
 ---
 
-## 1.Introducción
+## 1. Introducción
 
 Este documento presenta el plan de pruebas para el endpoint **Current Weather Data API** de OpenWeatherMap. El propósito es asegurar la calidad, funcionalidad, robustez y precisión de la API frente a diversos escenarios de consulta. También se propone una solución integral y automatizada para validar la integración con este servicio externo.
 
