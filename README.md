@@ -1,3 +1,5 @@
+<a name="inicio"></a>
+
 # 🌦️ Plan de Pruebas - Current Weather Data API (OpenWeatherMap)
 
 **MEDELLÍN | COLOMBIA**  
@@ -10,16 +12,16 @@
 
 1. [Introducción](#1-introducción)
 2. [Objetivo](#2-objetivo)
-3. [Justificación](#3-justificacion)
+3. [Justificación](#3-justificación)
 4. [Alcance](#4-alcance)
 5. [Estrategia de Pruebas](#5-estrategia-de-pruebas)
 6. [Herramientas](#herramientas)
-7. [Tipos de Validaciones/Aserciones](#tipos-de-validacionesaserciones)
-8. [Criterios de Aceptación](#criterios-de-aceptación)
-9. [Riesgos y Consideraciones](#riesgos-y-consideraciones)
-10. [Integración CI/CD Recomendada](#integración-cicd-recomendada)
-11. [Escenarios de Prueba Detallados](#escenarios-de-prueba-detallados)
-12. [Conclusiones](#conclusiones)
+7. [Tipos de Validaciones/Aserciones](#7-tipos-de-validacionesaserciones)
+8. [Criterios de Aceptación](#8-criterios-de-aceptación)
+9. [Riesgos y Consideraciones](#9-riesgos-y-consideraciones)
+10. [Integración CI/CD Recomendada – Arquitectura & Costo Cero](#10-integración-cicd-recomendada--arquitectura--costo-cero)
+11. [Escenarios de Prueba Detallados](#11-escenarios-de-prueba-detallados)
+12. [Conclusiones](#12-conclusiones)
 
 ---
 
@@ -29,19 +31,19 @@ Este documento presenta el plan de pruebas para el endpoint **Current Weather Da
 
 ---
 
-## 2. Objetivo
+## 2. Objetivo [🔝 Volver al inicio](#plan-de-pruebas---current-weather-data-api-openweathermap)
 
 Validar el comportamiento y la respuesta del endpoint `/weather` para solicitudes tanto válidas como inválidas, garantizando la entrega de información confiable y el manejo adecuado de errores.
 
 ---
 
-## 3. Justificación
+## 3. Justificación [🔝 Volver al inicio](#plan-de-pruebas)
 
 La correcta validación de servicios externos como OpenWeatherMap es crucial para sistemas que dependen de información meteorológica en tiempo real. Un plan de pruebas sólido asegura que cualquier integración será resiliente a cambios, errores y condiciones inesperadas, minimizando el riesgo de fallos en producción.
 
 ---
 
-## 4. Alcance
+## 4. Alcance [🔝 Volver al inicio](#plan-de-pruebas)
 
 - **Endpoint:** `GET /weather`
 - **Entradas:** ciudad, coordenadas, código postal, API Key, unidades, idioma.
