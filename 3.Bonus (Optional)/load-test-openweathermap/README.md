@@ -28,6 +28,13 @@ Este proyecto ejecuta una prueba de carga a la API de OpenWeatherMap usando K6 y
 
 ```bash
 docker build -t k6-load-test-weather .
+
+Luego, intenta ejecutar el siguiente comando:
+
+docker run --rm -v "$(pwd)":/scripts k6-load-test-weather run /scripts/scripts/k6-5min-load-test.js --out json=/scripts/results.json
+
+ó 
+
 docker run --rm -v $(pwd):/scripts k6-load-test-weather run /scripts/scripts/k6-5min-load-test.js --out json=/scripts/results.json
 ```
 
